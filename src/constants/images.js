@@ -20,6 +20,25 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import beef from '../assets/beef.svg';
+import ellipsefull from '../assets/Ellipse-full.svg';
+import ellipselefthalf from '../assets/Ellipse-left-half.svg';
+import ellipserighthalf from '../assets/Ellipse-right-half.svg';
+import foodboard from '../assets/food-on-board.svg';
+import garlicdark from '../assets/garlic-dark.svg';
+import garliclight from '../assets/garlic-light.svg';
+import leafa from '../assets/leaf-1';
+import leafb from '../assets/leaf-2';
+import lemonslice from '../assets/lemon-slice';
+import pepper from '../assets/pepper';
+import pepperright from '../assets/pepper-right-facing';
+import platedfood from '../assets/plated- food';
+import quotemark from '../assets/quote';
+import fullrectangle from '../assets/Rectangle-full';
+import rectangleleft from '../assets/Rectangle-left-half';
+import tomatoright from '../assets/tomato-right';
+import tomatoslicetopview from '../assets/tomato-slice-top-view';
+
 
 export default {
   bg,
@@ -44,4 +63,5 @@ export default {
   sign,
   quote,
   gericht,
+  beef
 };
