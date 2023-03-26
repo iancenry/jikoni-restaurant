@@ -68,3 +68,11 @@
     background-color: var(--color-grey);
 
 }
+
+.app__navbar-smallscreen{
+    display: none;
+}
+
+.app__navbar-smallscreen_overlay{
+    
+}
