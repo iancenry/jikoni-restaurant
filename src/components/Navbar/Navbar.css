@@ -94,6 +94,31 @@
     right: 20px; 
 }
 
+.app__navbar-smallscreen_links{
+    list-style: none;
+}
+
+.app__navbar-smallscreen_links li{
+    margin: 2rem;
+    cursor: pointer;
+    color: var(--color-golden);
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--font-base);
+}
+
+.app__navbar-smallscreen_links li:hover{
+    color: var(--color-grey);
+}
+
+
+
+@media screen and (max-width: 2000px) {
+    .app__navbar-logo img{
+        width: 190px;
+    }   
+ 
+}
 
 
 @media screen and (max-width: 1150px) {
@@ -104,5 +129,20 @@
     .app__navbar-smallscreen{
         display: flex;
     }    
+}
+
+
+@media screen and (max-width: 650px) {
+    .app__navbar{
+        padding: 1rem;
+    }
+
+    .app__navbar-login{
+        display: none;
+    }
+
+    .app__navbar-logo img{
+        width: 100px;
+    }  
 }
 
