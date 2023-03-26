@@ -28,4 +28,43 @@
 .app__navbar-links li{
     margin: 0 1rem;
     cursor: pointer;
+    transition: .4s ease;
+}
+
+.app__navbar-links li:hover{
+    color: var(--color-grey);
+}
+
+.app__navbar-login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.app__navbar-login a{
+    margin: 0 1rem;
+    border-bottom: 0.1px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.app__navbar-login a::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: var(--color-golden);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.app__navbar-login a:hover::after {
+    width: 100%;
+}
+
+.app__navbar-login div{
+    width: 1px;
+    height: 30px;
+    background-color: var(--color-grey);
+
 }
