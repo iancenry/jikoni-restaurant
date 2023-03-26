@@ -27,17 +27,17 @@ import ellipserighthalf from '../assets/Ellipse-right-half.svg';
 import foodboard from '../assets/food-on-board.svg';
 import garlicdark from '../assets/garlic-dark.svg';
 import garliclight from '../assets/garlic-light.svg';
-import leafa from '../assets/leaf-1';
-import leafb from '../assets/leaf-2';
-import lemonslice from '../assets/lemon-slice';
-import pepper from '../assets/pepper';
-import pepperright from '../assets/pepper-right-facing';
-import platedfood from '../assets/plated- food';
-import quotemark from '../assets/quote';
-import fullrectangle from '../assets/Rectangle-full';
-import rectangleleft from '../assets/Rectangle-left-half';
-import tomatoright from '../assets/tomato-right';
-import tomatoslicetopview from '../assets/tomato-slice-top-view';
+import leafa from '../assets/leaf-1.svg';
+import leafb from '../assets/leaf-2.svg';
+import lemonslice from '../assets/lemon-slice.svg';
+import pepper from '../assets/pepper.svg';
+import pepperright from '../assets/pepper-right-facing.svg';
+import platedfood from '../assets/plated- food.svg';
+import quotemark from '../assets/quote.svg';
+import fullrectangle from '../assets/Rectangle-full.svg';
+import rectangleleft from '../assets/Rectangle-left-half.svg';
+import tomatoright from '../assets/tomato-right.svg';
+import tomatoslicetopview from '../assets/tomato-slice-top-view.svg';
 
 
 export default {
@@ -63,5 +63,22 @@ export default {
   sign,
   quote,
   gericht,
-  beef
+  beef, 
+  ellipsefull,
+  ellipselefthalf,
+  ellipserighthalf,
+  foodboard, 
+  garlicdark, 
+  garliclight,
+  leafa,
+  leafb,
+  lemonslice, 
+  pepper,
+  pepperright,
+  platedfood,
+  quotemark, 
+  fullrectangle,
+  rectangleleft,
+  tomatoright,
+  tomatoslicetopview
 };
