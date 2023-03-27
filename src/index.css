@@ -24,6 +24,10 @@
   scroll-behavior: smooth;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 a {
   color: unset;
   text-decoration: none;
