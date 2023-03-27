@@ -19,7 +19,7 @@ import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
-import gericht from '../assets/gericht.png';
+import jikoni from '../assets/jikoni.png';
 import beef from '../assets/beef.svg';
 import ellipsefull from '../assets/Ellipse-full.svg';
 import ellipselefthalf from '../assets/Ellipse-left-half.svg';
@@ -62,7 +62,7 @@ export default {
   award05,
   sign,
   quote,
-  gericht,
+  jikoni,
   beef, 
   ellipsefull,
   ellipselefthalf,
