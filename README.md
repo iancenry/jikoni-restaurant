@@ -3,4 +3,4 @@
 
 
 
-**NB:**In the folder structure think of containers as different sections holding the components
+**NB:**In the folder structure think of containers as different sections housing the components
