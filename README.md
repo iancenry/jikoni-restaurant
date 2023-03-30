@@ -1,5 +1,9 @@
 # Jikoni Restaurant
 - A fine dining restaurant website made using ``vite + react`` with modern User Interface (UI).
+
+## Local Setup
+- 
+
 - Dependencies: `react-icons`
 
 
