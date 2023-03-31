@@ -4,7 +4,7 @@ import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs
 import './Gallery.css';
 import { useRef } from 'react';
 
-// const 
+const galleryImages =  [images.gallery01, images.gallery02, images.gallery03, images.gallery04]
 
 const Gallery = () => {
   const scrollRef = useRef(null)
@@ -29,7 +29,12 @@ const Gallery = () => {
 
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
-          {}
+          {galleryImages.map((galleryImage, index) => (
+            <div className='app__gallery-images_card flex__center' key={`gallery_image-${index + 1}`}>
+              <img src={galleryImage} alt="food gallery" />
+              <BsInstagram className='gallery__image-icon' />
+            </div>
+          )  )}
         </div>
       </div>
       <div className="app__gallery-images_arrows">
