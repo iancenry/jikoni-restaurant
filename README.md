@@ -8,3 +8,5 @@
 
 
 **NB:**In the folder structure think of containers as different sections housing the components
+
+TODO - fi folder not matching facebook icon well
