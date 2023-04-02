@@ -4,7 +4,7 @@ import './App.css'
 function App() {
 
   return (
-    <div>
+    <>
       <Navbar />
       <Header />
       <AboutUs />
@@ -14,9 +14,8 @@ function App() {
       <Laurels />
       <Gallery />
       <FindUs />
-      <Footer />
-          
-    </div>
+      <Footer />          
+    </>
   )
 }
 
