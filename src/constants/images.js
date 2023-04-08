@@ -31,7 +31,6 @@ import leafa from '../assets/leaf-1.svg';
 import leafb from '../assets/leaf-2.svg';
 import lemonslice from '../assets/lemon-slice.svg';
 import pepper from '../assets/pepper.svg';
-import pepperright from '../assets/pepper-right-facing.svg';
 import platedfood from '../assets/plated- food.svg';
 import quotemark from '../assets/quote.svg';
 import fullrectangle from '../assets/Rectangle-full.svg';
@@ -74,7 +73,6 @@ export default {
   leafb,
   lemonslice, 
   pepper,
-  pepperright,
   platedfood,
   quotemark, 
   fullrectangle,
