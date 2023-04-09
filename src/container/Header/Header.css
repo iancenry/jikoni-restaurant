@@ -67,6 +67,8 @@
         top: 25%;
         left: 58%;
         height: 90px;
+        transform: rotate(30deg);
+
     }
     
     .lemonsliceleft{
@@ -77,8 +79,8 @@
     }
     
     .garliclight{
-        top: 43%;
-        left: 50%;
+        top: 38%;
+        left: 51%;
         height: 170px;
     }
     
@@ -88,16 +90,16 @@
 @media screen and (max-width: 650px) {
     .app__header-h1{
         line-height: 90px;
-        font-size: 80px;
+        font-size: 75px;
     }
 
-    .tomato{
+    .tomato, .leafleft, .lemonsliceleft{
         height: 60px;
     }
     
     .pepper{
-        top: 25%;
-        left: 19%;
+        top: 30%;
+        left: 55%;
         height: 70px;
     }
 
@@ -108,27 +110,13 @@
     
     .lemonslice{
         top: 50%;
-        height: 80px;
-    }
+        height: 70px;
+    } 
 
-    .leafleft{
-        top: 50%;
-        left: 0%;
-        height: 100px;
-    }
-    /*    
-    
-    .lemonsliceleft{
-        top: 80%;
-        left: 0%;
-        height: 100px;
-        transform: rotate(180deg);
-    }
-    
     .garliclight{
-        top: 52%;
-        left: 42%;
-    } */
-    
+        top: 73%;
+        left: 45%;
+        height: 100px;
+    }   
 }
 
