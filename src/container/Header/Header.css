@@ -59,8 +59,7 @@
 
 @media screen and (max-width: 900px) {
     .tomato{
-        top: 10%;
-        left: 0%;
+        top: 9%;
         height: 100px;
     }
     
@@ -91,6 +90,46 @@
         line-height: 90px;
         font-size: 80px;
     }
+
+    .tomato{
+        height: 60px;
+    }
+    
+    .pepper{
+        top: 10%;
+        left: 19%;
+        height: 105px;
+    }
+    /* 
+    .lemonslice{
+        top: 50%;
+        right: 0%;
+        height: 100px;
+    }
+    
+    .rectangleleft{
+        top: 20%;
+        right: 0%;
+        height: 370px;
+    }
+    
+    .leafleft{
+        top: 50%;
+        left: 0%;
+        height: 100px;
+    }
+    
+    .lemonsliceleft{
+        top: 80%;
+        left: 0%;
+        height: 100px;
+        transform: rotate(180deg);
+    }
+    
+    .garliclight{
+        top: 52%;
+        left: 42%;
+    } */
     
 }
 
