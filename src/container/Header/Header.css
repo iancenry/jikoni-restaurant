@@ -58,30 +58,23 @@
 }
 
 @media screen and (max-width: 900px) {
+    .tomato, .pepper, .lemonsliceleft, .garliclight{
+        height: 110px;
+    }
+
+
     .tomato{
         top: 9%;
-        height: 100px;
     }
     
     .pepper{
-        top: 25%;
+        top: 24%;
         left: 58%;
-        height: 90px;
-        transform: rotate(30deg);
+    }
 
-    }
-    
-    .lemonsliceleft{
-        top: 80%;
-        left: 0%;
-        height: 100px;
-        transform: rotate(180deg);
-    }
-    
     .garliclight{
-        top: 38%;
-        left: 51%;
-        height: 170px;
+        top: 56%;
+        left: 50%;
     }
     
 }
@@ -93,25 +86,21 @@
         font-size: 75px;
     }
 
-    .tomato, .leafleft, .lemonsliceleft{
-        height: 60px;
+    .tomato, .leafleft, .lemonsliceleft, .pepper, .lemonslice{
+        height: 65px;
     }
     
     .pepper{
         top: 30%;
         left: 55%;
-        height: 70px;
+        transform: rotate(30deg);
+
     }
 
     .rectangleleft{
         top: 25%;
         height: 250px;
     }
-    
-    .lemonslice{
-        top: 50%;
-        height: 70px;
-    } 
 
     .garliclight{
         top: 73%;
