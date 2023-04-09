@@ -15,41 +15,46 @@
     width: 80%;
 }
 
+.tomato, .leafleft, .lemonsliceleft{
+    left: 0%;
+}
+
+.leafleft, .lemonslice{
+    top: 50%;
+}
+
 .tomato{
     top: 10%;
-    left: 0%;
     height: 180px;
 }
 
-.pepper{
-    top: 30%;
-    left: 19%;
-    height: 105px;
-}
-
-.lemonslice{
-    top: 50%;
-    right: 0%;
-    height: 100px;
-}
-
-.rectangleleft{
-    top: 20%;
-    right: 0%;
-    height: 370px;
-}
-
 .leafleft{
-    top: 50%;
-    left: 0%;
     height: 100px;
 }
 
 .lemonsliceleft{
     top: 80%;
-    left: 0%;
     height: 100px;
     transform: rotate(180deg);
+}
+
+.pepper{
+    top: 30%;
+    left: 20%;
+    height: 105px;
+}
+
+.lemonslice, .rectangleleft{
+    right: 0%;
+}
+
+.lemonslice{
+    height: 100px;
+}
+
+.rectangleleft{
+    top: 20%;
+    height: 370px;
 }
 
 .garliclight{
@@ -57,44 +62,33 @@
     left: 42%;
 }
 
-@media screen and (max-width: 900px) {
-    .tomato, .pepper, .lemonsliceleft, .garliclight{
+@media screen and (max-width: 1850px) {
+    .garliclight, .pepper{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .tomato, .lemonsliceleft{
         height: 110px;
     }
 
-
     .tomato{
         top: 9%;
-    }
-    
-    .pepper{
-        top: 24%;
-        left: 58%;
-    }
-
-    .garliclight{
-        top: 56%;
-        left: 50%;
-    }
+    }  
     
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
     .app__header-h1{
         line-height: 90px;
         font-size: 75px;
     }
 
-    .tomato, .leafleft, .lemonsliceleft, .pepper, .lemonslice{
-        height: 65px;
-    }
-    
-    .pepper{
-        top: 30%;
-        left: 55%;
-        transform: rotate(30deg);
-
+    .tomato, .leafleft, .lemonsliceleft, .lemonslice{
+        height: 60px;
     }
 
     .rectangleleft{
@@ -102,10 +96,7 @@
         height: 250px;
     }
 
-    .garliclight{
-        top: 73%;
-        left: 45%;
-        height: 100px;
-    }   
+    .lemonsliceleft{
+        top: 76%;
+    }
 }
-
