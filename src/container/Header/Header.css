@@ -96,28 +96,27 @@
     }
     
     .pepper{
-        top: 10%;
+        top: 25%;
         left: 19%;
-        height: 105px;
+        height: 70px;
     }
-    /* 
+
+    .rectangleleft{
+        top: 25%;
+        height: 250px;
+    }
+    
     .lemonslice{
         top: 50%;
-        right: 0%;
-        height: 100px;
+        height: 80px;
     }
-    
-    .rectangleleft{
-        top: 20%;
-        right: 0%;
-        height: 370px;
-    }
-    
+
     .leafleft{
         top: 50%;
         left: 0%;
         height: 100px;
     }
+    /*    
     
     .lemonsliceleft{
         top: 80%;
