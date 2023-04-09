@@ -30,6 +30,12 @@
     width: max-content;
 }
 
+.lemonslice-news{
+    top: -14.2%;
+    left: 47%;
+    transform: rotate(90deg);
+}
+
 
 @media screen and (min-width: 2000px) {
     .app__newsletter-input input{
