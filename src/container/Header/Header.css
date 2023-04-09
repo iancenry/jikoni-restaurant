@@ -15,10 +15,6 @@
     width: 80%;
 }
 
-.app__foodImages > img{
-    position: absolute;
-}
-
 .tomato{
     top: 10%;
     left: 0%;
@@ -61,6 +57,34 @@
     left: 42%;
 }
 
+@media screen and (max-width: 900px) {
+    .tomato{
+        top: 10%;
+        left: 0%;
+        height: 100px;
+    }
+    
+    .pepper{
+        top: 25%;
+        left: 58%;
+        height: 90px;
+    }
+    
+    .lemonsliceleft{
+        top: 80%;
+        left: 0%;
+        height: 100px;
+        transform: rotate(180deg);
+    }
+    
+    .garliclight{
+        top: 43%;
+        left: 50%;
+        height: 170px;
+    }
+    
+}
+
 
 @media screen and (max-width: 650px) {
     .app__header-h1{
@@ -69,3 +93,4 @@
     }
     
 }
+
