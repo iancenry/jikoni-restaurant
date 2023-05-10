@@ -16,3 +16,6 @@
 
 > fi folder not matching facebook icon well
 > Deploy to hostinger 
+
+
+=> Page => Container => Components
