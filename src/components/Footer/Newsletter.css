@@ -31,7 +31,7 @@
 }
 
 .lemonslice-news{
-    top: -14.2%;
+    top: -20.2%;
     left: 47%;
     transform: rotate(90deg);
 }
@@ -54,6 +54,11 @@
         margin: 0 0 2rem 0;
         width: 100%;
     }
+
+    .lemonslice-news{
+        top: -12.2%;
+        left: 44%;
+    }
     
 }
 
@@ -62,7 +67,10 @@
         padding: 2rem 0;
         border: none;
     }
-    
+
+    .lemonslice-news{
+        left: 36%;
+    }
 }
 
 @media screen and (max-width: 300px) {
