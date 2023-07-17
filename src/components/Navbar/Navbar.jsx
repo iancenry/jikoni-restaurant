@@ -15,16 +15,16 @@ const Navbar = () => {
       <img src={images.jikoni} alt="app logo " />
     </div>
     <ul className="app__navbar-links">      
-      <li className="p__opensans"><Link to="/" >Home</Link></li>
-      <li className="p__opensans"><Link to='/about' >About</Link></li>
-      <li className="p__opensans"><Link to='/menu'>Menu</Link></li>
-      <li className="p__opensans"><Link to='/awards'>Awards</Link></li>
-      <li className="p__opensans"><Link to='/contact'>Contact</Link></li>
+      <li className="p__opensans"><Link to="." >Home</Link></li>
+      <li className="p__opensans"><Link to='about' >About</Link></li>
+      <li className="p__opensans"><Link to='menu'>Menu</Link></li>
+      <li className="p__opensans"><Link to='awards'>Awards</Link></li>
+      <li className="p__opensans"><Link to='contact'>Contact</Link></li>
     </ul>
     <div className="app__navbar-login">
-      <a href="#login" className='p__opensans'>Log In / Register</a>
+      <Link to='.' className='p__opensans'>Login/Register</Link>
       <div />
-      <a href="/" className='p__opensans'>Book a Table</a>
+      <Link to='.' className='p__opensans'>Book a Table</Link>
     </div>
     <div className="app__navbar-smallscreen">
       <GiHamburgerMenu color='#fff' fontSize={27}  onClick={() => setToggleMenu(true)} />
