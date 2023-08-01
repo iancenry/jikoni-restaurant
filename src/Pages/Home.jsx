@@ -1,7 +1,6 @@
 import {
   AboutUs,
   Chef,
-  Gallery,
   Header,
   Intro,
   Laurels,
@@ -17,7 +16,6 @@ function Home() {
       <Chef />
       <Intro />
       <Laurels />
-      <Gallery />
     </>
   );
 }

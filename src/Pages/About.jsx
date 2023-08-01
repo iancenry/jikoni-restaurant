@@ -1,10 +1,12 @@
-import { AboutUs } from "../container"
+import { Gallery, Banner, History } from '../container';
 const About = () => {
   return (
     <>
-      <AboutUs />
+      <Banner page={'About Us'} />
+      <History />
+      <Gallery />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;
