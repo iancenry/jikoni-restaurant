@@ -1,0 +1,44 @@
+.history-left,
+.history-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.history-left p,
+.history-left img,
+.history-right h3 {
+  width: 80%;
+  text-align: left;
+}
+
+.history-right h3 {
+  color: var(--color-golden);
+}
+.history-right__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  text-align: left;
+}
+
+.history-right__info img {
+  width: 35px;
+}
+
+.about > .p__opensans {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+@media screen and (max-width: 1150px) {
+  .history-left img,
+  .history-left p,
+  .history-right__info,
+  .history-right h3 {
+    width: 100%;
+  }
+}
