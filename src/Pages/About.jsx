@@ -2,7 +2,7 @@ import { Gallery, Banner, History } from '../container';
 const About = () => {
   return (
     <>
-      <Banner page={'About Us'} />
+      <Banner heading={'Welcome to Jikoni'} page={'About Us'} />
       <History />
       <Gallery />
     </>
