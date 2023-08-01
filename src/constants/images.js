@@ -40,6 +40,7 @@ import tomatoslicetopview from '../assets/tomato-slice-top-view.svg';
 import banner from '../assets/banner2.png';
 import historyLeft from '../assets/historyLeft.png';
 import historyRight from '../assets/historyRight.png';
+import happyHour from '../assets/happy-hour.png';
 
 export default {
   bg,
@@ -84,4 +85,5 @@ export default {
   banner,
   historyLeft,
   historyRight,
+  happyHour,
 };
