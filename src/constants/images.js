@@ -38,6 +38,8 @@ import rectangleleft from '../assets/Rectangle-left-half.svg';
 import tomatoright from '../assets/tomato-right.svg';
 import tomatoslicetopview from '../assets/tomato-slice-top-view.svg';
 import banner from '../assets/banner2.png';
+import historyLeft from '../assets/historyLeft.png';
+import historyRight from '../assets/historyRight.png';
 
 export default {
   bg,
@@ -80,4 +82,6 @@ export default {
   tomatoright,
   tomatoslicetopview,
   banner,
+  historyLeft,
+  historyRight,
 };
