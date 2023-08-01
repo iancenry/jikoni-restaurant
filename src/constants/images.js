@@ -37,7 +37,7 @@ import fullrectangle from '../assets/Rectangle-full.svg';
 import rectangleleft from '../assets/Rectangle-left-half.svg';
 import tomatoright from '../assets/tomato-right.svg';
 import tomatoslicetopview from '../assets/tomato-slice-top-view.svg';
-
+import banner from '../assets/banner2.png';
 
 export default {
   bg,
@@ -62,21 +62,22 @@ export default {
   sign,
   quote,
   jikoni,
-  beef, 
+  beef,
   ellipsefull,
   ellipselefthalf,
   ellipserighthalf,
-  foodboard, 
-  garlicdark, 
+  foodboard,
+  garlicdark,
   garliclight,
   leafa,
   leafb,
-  lemonslice, 
+  lemonslice,
   pepper,
   platedfood,
-  quotemark, 
+  quotemark,
   fullrectangle,
   rectangleleft,
   tomatoright,
-  tomatoslicetopview
+  tomatoslicetopview,
+  banner,
 };
