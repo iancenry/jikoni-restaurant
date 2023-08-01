@@ -1,10 +1,10 @@
 import './Banner.css';
 
-const Banner = ({ page }) => {
+const Banner = ({ heading, page, img }) => {
   return (
-    <div className="app__banner">
+    <div className="app__banner" style={{ background: img && `url(${img})` }}>
       <div className="banner__info">
-        <h1 className="banner__title">Welcome to Jikoni</h1>
+        <h1 className="banner__title">{heading}</h1>
         <p className="p__cormorant">Home &gt; {page}</p>
       </div>
     </div>
