@@ -1,6 +1,14 @@
-import {AboutUs, Chef, FindUs, Gallery, Header, Intro, Laurels, SpecialMenu} from '../container'
-function Home() {
+import {
+  AboutUs,
+  Chef,
+  Gallery,
+  Header,
+  Intro,
+  Laurels,
+  SpecialMenu,
+} from '../container';
 
+function Home() {
   return (
     <>
       <Header />
@@ -11,7 +19,7 @@ function Home() {
       <Laurels />
       <Gallery />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
