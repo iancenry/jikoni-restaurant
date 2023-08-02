@@ -1,0 +1,10 @@
+.reservation-form .inputs {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 780px) {
+  .reservation-form .inputs {
+    flex-direction: column;
+  }
+}
