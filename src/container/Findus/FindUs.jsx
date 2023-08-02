@@ -9,6 +9,7 @@ const FindUs = () => {
     email: '',
     message: '',
   });
+  const [message, setMessage] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -17,7 +18,17 @@ const FindUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    if (
+      formData.fullName.length > 0 &&
+      formData.email.length > 0 &&
+      formData.message.length > 0
+    ) {
+      setMessage('');
+      setMessage('Message Sent');
+      console.log(formData);
+    } else {
+      setMessage('Fill All Information');
+    }
   };
 
   return (
@@ -27,6 +38,18 @@ const FindUs = () => {
         <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>
           Find Us
         </h1>
+        {message && (
+          <p
+            className="p__cormorant"
+            style={{
+              margin: '2rem 0',
+              alignSelf: 'center',
+              color: '#545454',
+            }}
+          >
+            {message}
+          </p>
+        )}
         <div className="app__wrapper-content form-wrapper">
           <form action="" className="contact-form">
             <input
@@ -35,6 +58,7 @@ const FindUs = () => {
               placeholder="Full Name"
               name="fullName"
               onChange={handleChange}
+              required
             />
             <input
               type="text"
@@ -42,6 +66,7 @@ const FindUs = () => {
               placeholder="Email Adress"
               name="email"
               onChange={handleChange}
+              required
             />
             <textarea
               name="message"
@@ -49,6 +74,7 @@ const FindUs = () => {
               placeholder="Message"
               value={formData.message}
               onChange={handleChange}
+              required
             ></textarea>
             <button
               type="submit"

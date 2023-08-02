@@ -9,6 +9,7 @@ import Laurels from './Laurels/Laurels';
 import SpecialMenu from './Menu/SpecialMenu';
 import Banner from './Banner/Banner';
 import History from './History/History';
+import Reservation from './Reservation/Reservation';
 
 export {
   AboutUs,
@@ -22,4 +23,5 @@ export {
   SpecialMenu,
   Banner,
   History,
+  Reservation,
 };
