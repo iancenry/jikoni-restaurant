@@ -1,7 +1,12 @@
+import { Banner, Reservation } from '../container';
+
 const BookTable = () => {
   return (
-    <div>BookTable</div>
-  )
-}
+    <>
+      <Banner heading="Make A Reservation" page="Booking" />
+      <Reservation />
+    </>
+  );
+};
 
-export default BookTable
+export default BookTable;
