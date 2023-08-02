@@ -3,7 +3,7 @@ import { Banner, Reservation } from '../container';
 const BookTable = () => {
   return (
     <>
-      <Banner heading="Make A Reservation" page="Booking" />
+      <Banner heading="Make A Reservation" page="Book A Table" />
       <Reservation />
     </>
   );

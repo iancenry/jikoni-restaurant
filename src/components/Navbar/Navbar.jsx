@@ -66,6 +66,9 @@ const Navbar = () => {
               <li className="p__opensans">
                 <Link to="/contact">Contact</Link>
               </li>
+              <li className="p__opensans">
+                <Link to="/book"> Book a Table</Link>
+              </li>
             </ul>
           </div>
         )}
