@@ -33,5 +33,5 @@ function App() {
 
 export default App;
 
-// add booking under Services in the UI
+// update Lorem ipsums
 // add blog, register and not found pages
