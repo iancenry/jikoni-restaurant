@@ -12,7 +12,7 @@
 
 - Dependencies used: `react-icons`, `react-router-dom`
 
-> Folder structure: think of containers as different sections housing components.
+> `Folder structure`: think of containers as different sections housing components.
 
 > fi folder not matching facebook icon well
 > Deploy to hostinger
