@@ -33,5 +33,4 @@ function App() {
 
 export default App;
 
-// update Lorem ipsums
 // add blog, register and not found pages
