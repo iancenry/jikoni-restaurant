@@ -18,9 +18,14 @@ const History = () => {
         <div className="app__wrapper">
           <div className="app__wrapper_info history-left">
             <p className="p__opensans">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
-              pharetra adipiscing ultrices vulputate posuere tristique. In sed
-              odio nec aliquet eu proin mauris et.
+              Our journey began in [Year], when visionary chef [Founder's Name]
+              embarked on a quest to redefine luxury dining. Through innovation
+              and unwavering passion, our restaurant quickly gained renown for
+              pushing culinary boundaries. Over the years, we have garnered
+              prestigious awards, becoming a hallmark of excellence. From our
+              humble beginnings to our current stature, our history is a
+              tapestry woven with flavors, traditions, and the pursuit of
+              gastronomic perfection.
             </p>
             <img src={images.historyRight} alt="" />
           </div>
@@ -57,23 +62,26 @@ const History = () => {
           <h1 className="headtext__cormorant">Happy Hour With Us</h1>
         </div>
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
-          voluptatem quia molestiae, praesentium blanditiis nemo perspiciatis.
-          Est saepe dolores debitis mollitia in quibusdam corrupti quas odio.
-          sapiente fugit laborum nesciunt ratione. Fugit necessitatibus nam,
-          itaque nostrum est at eligendi, repellat inventore suscipit totam
-          quasi beatae eos odio quis neque fuga. Modi harum dolorem delectus,
+          As you step into our elegantly designed space, you'll be immersed in
+          an atmosphere that exudes sophistication and warmth. Our attentive
+          staff, with a deep knowledge of food and wine pairings, is dedicated
+          to curating an impeccable dining experience for you and your
+          companions.
         </p>
         <p className="p__opensans">
-          sapiente fugit laborum nesciunt ratione. Fugit necessitatibus nam,
-          itaque nostrum est at eligendi, repellat inventore suscipit totam
-          quasi beatae eos odio quis neque fuga. Modi harum dolorem delectus,
-          odio obcaecati ipsum optio dicta. Soluta, quidem obcaecati
-          perspiciatis quas eius quibusdam eligendi dolorem quam totam
-          praesentium voluptatem. Nemo, dignissimos iste! Nihil et ab
-          consectetur, aliquam impedit fuga non, odit est, quibusdam aliquid vel
-          repellat voluptates sequi. Ea veniam nemo deserunt veritatis a
-          facilis, inventore eius!
+          At the core of our philosophy is a commitment to using only the
+          finest, locally sourced ingredients, ensuring each dish tells a story
+          of its origin and flavor. Our master chefs, trained in the most
+          prestigious culinary academies, bring passion and precision to every
+          creation, presenting an evolving menu that pays homage to tradition
+          while embracing innovation.
+        </p>
+        <p className="p__opensans">
+          As you step into our elegantly designed space, you'll be immersed in
+          an atmosphere that exudes sophistication and warmth. Our attentive
+          staff, with a deep knowledge of food and wine pairings, is dedicated
+          to curating an impeccable dining experience for you and your
+          companions.
         </p>
       </div>
     </>
