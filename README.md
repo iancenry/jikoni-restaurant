@@ -14,7 +14,7 @@
 
 > `Folder structure`: think of containers as different sections housing components.
 
-> fi folder not matching facebook icon well
-> Deploy to hostinger
+> fi folder not matching facebook icon well - open issue on `react-icons` repo
+> Deploy to hostinger/netlify
 
 => Page => Container => Components
